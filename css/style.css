@@ -4,9 +4,65 @@ body {
   color: #040000;
 }
 
+
+
+.code-block {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: #333;
+  line-height: 2.2;
+  border-radius: 5px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+  margin: 0;
+}
+
+code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.english {
+  color: #007ACC; /* колір для англійського тексту, можна змінити */
+  font-size: 16px;
+}
+
+
+
+.img_sert {
+  display: flex;
+  justify-content: center; /* Горизонтальне вирівнювання */
+  align-items: center; /* Вертикальне вирівнювання */
+}
+
+
+
+
+
+
+
+
+.img_box img {
+  max-width: 100%; /* Щоб зображення не перевищувало ширину контейнера */
+  height: auto; /* Зберігаємо пропорції зображення */
+}
+
+.img_box{
+  width: 50%;
+  /* height: 70%; */
+}
+
+
 .layout_padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .layout_padding2 {
@@ -416,7 +472,7 @@ a:focus {
   margin-top: 10px;
 }
 
-.about_section .detail-box a {
+/* .about_section .detail-box a {
   margin-top: 15px;
   display: inline-block;
   font-family: 'Merriweather Sans', sans-serif;
@@ -426,7 +482,7 @@ a:focus {
   border: 1px solid #0355cc;
   border-radius: 2px;
   color: #ffffff;
-}
+} */
 
 .about_section .detail-box a:hover {
   background-color: transparent;
@@ -838,3 +894,5 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
